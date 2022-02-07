@@ -1,0 +1,15 @@
+# vi /usr/local/etc/ocp4.config
+RHT_OCP4_GITHUB_USER=cheevatee
+RHT_OCP4_QUAY_USER=crubsris
+M=$RHT_OCP4_MASTER_API
+WC=$RHT_OCP4_WILDCARD_DOMAINN=$RHT_OCP4_NEXUS_SERVER
+U=$RHT_OCP4_DEV_USER
+P=$RHT_OCP4_DEV_PASSWORD
+G=$RHT_OCP4_GITHUB_USER
+Q=$RHT_OCP4_QUAY_USER
+
+# vi .vimrc
+autocmd FileType yaml setlocal ai ts=2 sw=2 et nu cuc
+# vi .bashrc
+export EDITOR=/usr/bin/vim
+source /usr/local/etc/ocp4.config
