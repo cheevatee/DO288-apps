@@ -10,8 +10,6 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-cp -Rv /tmp/src/*.html ./
-echo "This info page" > ./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
