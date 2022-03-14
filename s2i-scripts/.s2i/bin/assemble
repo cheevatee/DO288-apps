@@ -10,8 +10,8 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-cp- Rv /tmp/src/*.html /opt/app-root/src/ 
-echo "This info page" > /opt/app-root/src/info.html
+cp- Rv /tmp/src/*.html ./
+echo "This info page" > ./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
